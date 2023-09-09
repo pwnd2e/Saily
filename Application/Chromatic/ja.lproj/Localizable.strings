@@ -566,10 +566,10 @@
 "WEB" = "Web";
 
 /* While the world sleeps, we dream! */
-"WELCOME_CARD_DESC" = "世界が眠っていても、私たちは夢を追い続ける。";
+"WELCOME_CARD_DESC" = "While the world sleeps, we pirate";
 
 /* Welcome to Saily! */
-"WELCOME_CARD_TITLE" = "Sailyへようこそ！";
+"WELCOME_CARD_TITLE" = "Welcome to 2e's Saily by pirate'R'us！";
 
 /* Worldwide Search */
 "WORLDWIDE_SEARCH" = "ワールドワイド検索";
