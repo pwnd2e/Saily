@@ -75,11 +75,11 @@ class WelcomeCard: UIView {
         }
 
         // labels
-        welcomeTintLabel.text = NSLocalizedString("WELCOME_CARD_DESC", comment: "While the world sleeps, we dream!")
+        welcomeTintLabel.text = NSLocalizedString("WELCOME_CARD_DESC", comment: "While the world sleeps, we pirate!")
         welcomeTintLabel.font = .systemFont(ofSize: 10, weight: .semibold)
         welcomeTintLabel.textAlignment = .left
         welcomeTintLabel.textColor = UIColor(named: "WelcomeCard.Title")
-        welcomeTitleLabel.text = NSLocalizedString("WELCOME_CARD_TITLE", comment: "Welcome to Saily!")
+        welcomeTitleLabel.text = NSLocalizedString("WELCOME_CARD_TITLE", comment: "Welcome to 2e's Saily by pirate'R'us!")
         welcomeTitleLabel.font = .systemFont(ofSize: 16, weight: .semibold)
         welcomeTitleLabel.textAlignment = .left
         welcomeTitleLabel.textColor = UIColor(named: "WelcomeCard.Title")
