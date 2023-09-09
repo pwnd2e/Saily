@@ -1,0 +1,29 @@
+#!/bin/bash
+
+APP_PATH="/Applications/chromatic.app"
+
+if [ -d "$APP_PATH" ]; then
+    chown -R root:wheel "$APP_PATH"
+    chmod -R 755 "$APP_PATH"
+else
+    echo "Malformed Package: Missing $APP_PATH"
+fi
+
+ROOT_BINARY="/usr/sbin/chromaticspawn"
+if [ -f "$ROOT_BINARY" ]; then
+    chmod 755 "$ROOT_BINARY"
+    chown root:wheel "$ROOT_BINARY"
+    chmod +s "$ROOT_BINARY"
+else 
+    echo "Malformed Package: Missing $ROOT_BINARY"
+fi
+
+# env chromaticAuxiliaryExec is set
+# then exit with 0
+if [ -n "$chromaticAuxiliaryExec" ]; then
+    exit 0
+fi
+
+echo "[*] reloading icon cache for springboard..."
+uicache -p /Applications/chromatic.app
+echo "[*] completed"
