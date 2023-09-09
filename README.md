@@ -1,5 +1,5 @@
 
-![Saily-IPA-How-To-Install-Saily-Package-Manager-on-iPhone-2]![Saily-IPA-How-To-Install-Saily-Package-Manager-on-iPhone](https://github.com/pwnd2e/Saily/assets/104146035/f1b62693-bdfe-4067-b958-0daa20970f9d)
+(https://github.com/pwnd2e/Saily/assets/104146035/f1b62693-bdfe-4067-b958-0daa20970f9d)
 
 
 
