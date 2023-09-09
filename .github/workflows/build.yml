@@ -3,7 +3,7 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: macos-11
+    runs-on: macos-latest
     steps:
       - name: Checkout
         uses: actions/checkout@master
@@ -33,4 +33,3 @@ jobs:
         run: |
           brew install bugsnag/tap/bugsnag-dsym-upload
           bugsnag-dsym-upload --api-key "${{ secrets.BUGSNAG_API_TOKEN }}" "build/artifact/${{ env.build_timestamp }}+dSYM.zip"
-
